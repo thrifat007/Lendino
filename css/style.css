@@ -1,0 +1,609 @@
+/*Global Css*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+img {
+	display: block;
+}
+
+
+.logo {
+
+width: 20%;
+
+float: left;
+}
+.logo img {
+
+width: 150px;
+}
+.menu-bar {
+
+width: 50%;
+
+float: left;
+}
+nav ul {
+
+list-style: none;
+}
+nav ul li {
+
+display: inline-block;
+
+margin: 33px;
+}
+
+nav ul li a{
+
+text-decoration: none;
+
+font-size: 14px;
+
+color: #161616;
+}
+
+.icon {
+
+width: 30%;
+
+float: left;
+}
+
+.icon ul{
+
+list-style: none;
+}
+
+.icon ul li{
+
+	display: inline-block;
+
+	margin: 38px 13px;
+}
+
+.icon ul li a{
+
+}
+
+.fa.fa-facebook {
+    background: #243388;
+    color: #fff;
+    padding: 4px 8px;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+    -ms-transition: 0.8s ease;
+}
+
+.fa.fa-facebook:hover {
+    transform: rotate(360deg);
+}
+
+.fa.fa-twitter {
+    background: #2196F3;
+    color: #fff;
+    padding: 4px 8px;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+    -ms-transition: 0.8s ease;
+}
+
+.fa.fa-twitter:hover {
+    transform: rotate(360deg);
+}
+
+.fa.fa-linkedin {
+    background: #3F51B5;
+    color: #fff;
+    padding: 4px 8px;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+    -ms-transition: 0.8s ease;
+}
+
+.fa.fa-linkedin:hover {
+    transform: rotate(360deg);
+}
+
+.fa.fa-google-plus {
+    background: #AE311B;
+    color: #fff;
+    padding: 4px 8px;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+    -ms-transition: 0.8s ease;
+}
+
+.fa.fa-google-plus:hover {
+    transform: rotate(360deg);
+}
+
+.icon ul li a{
+
+color: #161616;
+}
+i.fa.fa-sign-in:after {
+	content: 'sign in';
+    margin: 5px;
+
+}
+.hero {
+    height: 500px;
+	background:url(../img/finance.png);
+	background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+
+.text {
+    height: 210px;
+    width: 30%;
+    float: left;
+    background-color: #f1eaea6b;
+    margin: 93px;
+    padding: 58px;
+}
+.text h1{
+    font-size: 47px;
+    text-align: center;
+}
+.text p {
+    font-size: 15px;
+    text-align: center;
+    margin: 25px auto;
+    padding: 9px;
+}
+
+.text ul {
+    list-style: none;
+}
+
+.text ul li {
+    display: inline-block;
+}
+
+.text ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #16da16;
+    margin: 13px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.one{
+    width: 25%;
+    float: left;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.fa.fa-check{
+     
+     font-size: 50px;
+    margin: 0px 99px;
+    padding: 22px;
+    background-color: red;
+    color: white;
+    border-radius: 55px;
+    background-color: #6879D4;
+
+}
+
+.one h1{
+       
+       
+        margin: 10px auto;
+            padding: 10px;
+}
+
+.one p{
+
+          padding: 10px;
+          margin-bottom: 20px;
+                  
+}
+
+.one a{
+
+      
+       text-decoration: none;
+       color: white;
+       background-color: #16da16;
+       padding: 10px 15px;
+       border-radius: 6px;
+}
+
+.two{
+    width: 25%;
+    float: left;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.fa.fa-map-marker{
+   font-size: 50px;
+    margin: 0px 99px;
+    padding: 22px 34px;
+    background-color: red;
+    color: white;
+    border-radius: 60px;
+    background-color: #009688;
+
+}
+
+.two h1{
+ 
+        margin: 10px auto;
+        padding: 10px;
+
+}
+
+.two p{
+  padding: 10px;
+  margin-bottom: 20px;
+
+}
+
+.two a{
+     text-decoration: none;
+       color: white;
+       background-color: #16da16;
+       padding: 10px 15px;
+       border-radius: 6px;
+
+
+}
+
+.three{
+      width: 25%;
+    float: left;
+    margin: 50px auto;
+    text-align: center;
+
+}
+
+.fa.fa-money{
+        font-size: 50px;
+    margin: 0px 99px;
+    padding: 22px;
+    background-color: red;
+    color: white;
+    border-radius: 55px;
+    background-color: #4CAF50;
+
+
+
+}
+
+.three h1{
+margin: 10px auto;
+            padding: 10px;
+
+}
+
+.three p{
+  padding: 10px;
+          margin-bottom: 20px;
+
+}
+
+.three a{
+
+text-decoration: none;
+       color: white;
+       background-color: #16da16;
+       padding: 10px 15px;
+       border-radius: 6px;
+}
+
+.four{
+
+    width: 25%;
+    float: left;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.fa.fa-user-plus{
+
+    font-size: 50px;
+    margin: 0px 99px;
+    padding: 22px;
+    background-color: red;
+    color: white;
+    border-radius: 55px;
+    background-color: #97E268;
+}
+
+.four h1{
+margin: 10px auto;
+            padding: 10px;
+
+}
+
+.four p{
+  padding: 10px;
+          margin-bottom: 20px;
+
+}
+
+.four a{
+text-decoration: none;
+       color: white;
+       background-color: #16da16;
+       padding: 10px 15px;
+       border-radius: 6px;
+
+}
+
+.list-one{
+    width: 35%;
+    float: left;
+    background-color: #B7CCD3;
+    margin: 20px;
+    padding: 60px;
+}
+
+.list-one h1{
+
+    text-align: center;
+    font-size: 35px;
+}
+
+.list-one ul{
+    list-style: none;
+    padding: 8px;
+}
+
+.list-one ul li{
+    
+    font-size: 19px;
+    padding: 15px;
+}
+
+.list-one a{
+       text-decoration: none;
+       color: white;
+       background-color: #16da16;
+       padding: 10px 15px;
+       border-radius: 6px;
+
+}
+
+.list-two{
+    width: 35%;
+    float: left;
+    background-color: #B7CCD3;
+    margin: 20px;
+    padding: 60px;
+        
+
+}
+
+.list-two h1{
+        text-align: center;
+        font-size: 35px;
+
+}
+
+.list-two ul{
+      list-style: none;
+          padding: 8px;
+}
+
+.list-two ul li{
+
+    font-size: 19px;
+    padding: 15px;
+
+}
+
+.list-two a{
+
+text-decoration: none;
+       color: white;
+       background-color: #16da16;
+       padding: 10px 15px;
+       border-radius: 6px;
+    
+}
+
+.fa.fa-stop-circle-o{
+    color: #008000;
+}
+
+.blog h1{
+    font-size: 35px;
+    text-align: center;
+    color: #095169;
+    padding: 15px;
+    margin: 15px;
+}
+
+.blog-one{
+    width: 40%;
+    float: left;
+}
+
+.blog-one h2{
+    color: #095199;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.blog-one p{
+    padding: 10px;
+}
+
+button{
+
+    color: white;
+    background-color: #16da16;
+    border-radius: 10px;
+    border:none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.blog-two{
+    width: 40%;
+    float: left;
+    margin-left: 189px;
+}
+
+.blog-two h2{
+    color: #095199;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.blog-two p{
+    padding: 10px;
+    margin-top: 27px;
+}
+.achievment{
+    width: 100%;
+    background-color: silver;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+
+}
+
+.info{
+    text-align: center;
+    font-size: 35px;
+}
+
+.info h6{
+    padding: 7px;
+}
+
+.rating{
+    margin: 20px 0px;
+}
+
+.rating-one{
+    text-align: center;
+    font-size: 25px;
+}
+
+.fa.fa-star{
+    color: #076b07;
+}
+
+.rating-one ul{
+    
+    list-style: none;
+        padding: 10px;
+}
+
+.rating-one ul li{
+
+    display: inline-block;
+}
+
+.fa.fa-star-o{
+    
+    color: white;
+    background-color: #16da16;
+    padding: 10px;
+    margin: 0px; 
+}
+
+.fa.fa-star-half-o{
+    
+    color: white;
+    background-color: grey;
+    padding: 10px;
+    margin: 0px; 
+
+}
+
+
+.rating-one p{
+
+    font-size: 20px;
+}
+
+.mention{
+    background-color:#808080;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    height: 200px;
+    width: 100%;
+}
+
+.mention h2 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+
+}
+
+.img-one {
+    margin: 45px 10px;
+}
+
+.img-two{
+    margin: 45px 10px;
+
+}
+
+
+.mention-one{
+
+    width: 20%;
+    float: left;
+
+}
+
+.mention-one img{
+
+    width: 200px;
+
+}
+
+footer{
+    padding: 115px;
+    background-color: #052D3A;
+}
+
+.footer-one{
+
+    width: 600px;
+    margin: 0px auto;
+    color:white;
+    text-align: center;
+}
+.footer-two{
+
+    width: 50%;
+    float: left;
+}
+
+.footer-two ul{
+
+    list-style: none;
+}
